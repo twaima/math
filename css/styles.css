@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+#container {
+	width: 1050px;
+		
+	/*border: 1px solid grey;*/
+			margin:0px auto;
+	
+	
+}
+.sidebar{
+	width: 450px;
+	height:500px;
+	border: 1px solid #BAF46F;
+	border-radius: 20px;
+	padding: 10px 30px;
+}
+.sidebar h3{
+	color: #B314DB;
+	font-size: 35px;
+	
+}
+.sidebar ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	
+}
+#leftsidebar ul li {
+	padding: 4px 0px 2px 10px;
+	list-style-image: url(images/arrow.png);
+}
+#leftsidebar ul{
+	padding-top: 10px;
+}
+#rightsidebar ul{
+	padding-top: 10px;
+	
+}
+.footer{
+	height: 40px;
+	background: linear-gradient(#DCDB46,#D8D83C);
+	padding: 10px 20px;
+	margin-top: 10px;
+	border-radius: 10px;
+	
+}
+.footer p{
+	text-align: center;
+	font-size: 20px;
+
+}
+#rightsidebar ul li {
+	padding: 4px 0px 6px 8px;
+	list-style-image:url(images/tick.png);
+}
+.sidebar ul li a:hover,.sidebar ul li a.active{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 24px;
+	color: #CE67DB;
+	transition:font-size 0.3s ease;
+	-webkit-transition:font-size 0.3s ease;
+	-moz-transition:font-size 0.3s ease;
+	-o-transition:font-size 0.3s ease;
+	-ms-transition:font-size 0.3s ease;
+	
+	
+}
+#leftsidebar{
+	float: left;
+}
+#rightsidebar{
+	float:right;
+}
+#header{
+	
+	height:100%;
+	padding: 10px 0px;
+}
+#brand{
+	float: left;
+}
+h1 a{
+	
+	font-size: 45px;
+	font-weight: 100;
+	color: #861BBF;
+	text-decoration: none;
+}
+
+#searchbox{
+	
+	float: right;
+	background:linear-gradient(#DBF0A4,#BBEA5B);
+	width: 400px;
+	height: 50px;
+	padding: 20px 20px 0px 20px;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+.text{
+	float: left;
+	width: 200px;
+	padding: 5px;
+	font-size: 15x;
+	border: 1px solid #C7D03E;
+	border-radius: 2px;
+	color: #E36A0C;
+	background: white url(images/LogoMakr_8bckRT.png) right center no-repeat;
+}
+.clear{
+	clear: both;
+}
+ul{
+	list-style: none;
+}
+#menu{
+	height: 70px;
+	background: linear-gradient(#F3F287,#DADA41);
+	padding: 7px 0px;
+	border-radius: 10px;
+}
+#menu ul li:last-child{
+	border-right: none;
+	
+}
+#menu ul li{
+	float: left;
+	padding: 0px 45px;
+	height: 30px;
+	border-right:1px solid #B314DB;
+	
+	
+}
+#menu ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color:#B314DB ;
+	font-size:17px;
+	line-height: 30px;
+	transition:font-size 0.3s ease;
+	-webkit-transition:font-size 0.3s ease;
+	-moz-transition:font-size 0.3s ease;
+	-o-transition:font-size 0.3s ease;
+	-ms-transition:font-size 0.3s ease;
+	
+}
+#menu ul li a:hover, #menu ul li a.active{
+	font-size: 25px;
+	font-weight: bold;
+	color:#B314DB;
+}
+.submit{
+	float: right;
+	padding: 5px;
+	font-weight: bold;
+	background: #A651D6;
+	font-size: 15px;
+	color: #FFFFF8;
+	border-radius: 7px;
+}
+#introduction{
+	background: linear-gradient(#D6EF99,#BDEA5F);
+	padding: 30px;
+	margin:16px 0px;
+	border-radius: 10px;
+}
+#introduction h3{
+	font-size: 45px;
+	color:#319677;
+	font-weight: normal;
+}
+#introduction p{
+	font-size: 25px;
+	text-align: justify;
+	color:#718F19;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
