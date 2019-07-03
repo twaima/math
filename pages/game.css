@@ -1,0 +1,115 @@
+html{
+	height: 100%;
+	background: radial-gradient(circle,#fff,#ccc);
+	
+	
+}
+
+#container{
+	height: 400px;
+	width: 550px;
+	background-color: #9DD2EA;
+	margin: 100px auto;
+	border-radius: 10px;
+	padding: 20px;
+	box-shadow: 0px 4px 0 #009DE4;
+	position: relative;
+}
+#score{
+	background-color: #F1FF92;
+	color: #889C7D;
+		padding:10px;
+	box-shadow: 0px 4px 0 #9DA753;
+	width: 50px;
+	position: absolute;
+	left: 500px;
+	border-radius: 5px;
+}
+#correct{
+	position: absolute;
+	left: 250px; 
+	visibility: hidden;
+	background-color:#AFE64E;
+	color:white;
+	padding: 10px;
+	border-radius: 5px;
+	
+}
+#wrong{
+	position: absolute;
+	left: 250px;
+	visibility: hidden;
+	background-color:red;
+	color:white;
+	padding: 10px;
+	border-radius: 5px;
+	
+}
+#screen{
+	
+	background-color: #9D9FEA;
+	height: 150px;
+	width: 450px;
+	font-size: 100px;
+	text-align: center;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	box-shadow:0px 4px 0px #535AA7;
+	border-radius: 10px;
+	color:black;
+	margin: 50px auto 10px auto;
+}
+#instruction{
+	
+	background-color: #B481D9;
+	box-shadow: 0px 4px 0px #8153A7;
+	width: 450px;
+	border-radius: 10px;
+	height: 50px;
+	padding: 10px auto ;
+	line-height: 45px;
+	font-size: 20px;
+	text-align: center;
+    margin: 0px auto 10px auto;
+}
+#choices{
+	width: 450px;
+	height: 100px;
+	margin: 5px auto;
+	border-radius: 10px;
+	margin: 0px auto 10px auto;
+	
+}
+.answers{
+	width: 85px;
+	height: 85px;
+	border-radius: 10px;
+	background-color:white;
+	float: left;
+	cursor: pointer;
+	margin-right: 36px;
+	text-align: center;
+	line-height: 80px;
+	font-size: 20px;
+	position: relative;
+	transition: 0.3s;
+	box-shadow:0px 4px 0px rgb(0,0,0,2);
+}
+#D{
+	margin-right: 0;
+}
+.answers:hover{
+	background-color:#9C89F6;
+	box-shadow:0px 4px #6b54d3;
+	color:white;
+}
+.answers:active{
+	box-shadow:0px 0px #6b54d3;
+	top: 4px;
+}
+#startreset{
+	width: 70px;
+	height: 10px;
+	border-radius: 10px;
+	background-color:white;
+	box-shadow:0px 4px 0px rgb(0,0,0,2);
+}
